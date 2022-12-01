@@ -1,0 +1,24 @@
+﻿Build started 10/7/2010 12:05:51 PM.
+     1>Project "Y:\Work\ANN\Patch_KDTree\Patch_KDTree\Patch_KDTree.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Patch_KDTree.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Patch_KDTree.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt KDSearch.cpp
+         KDSearch.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Y:\Work\ANN\Patch_KDTree\Debug\Patch_KDTree.lib" /NOLOGO Debug\KDSearch.obj
+         Debug\PKDTree.obj
+         Debug\stdafx.obj
+     1>KDSearch.obj : warning LNK4006: "void __cdecl seed_random(unsigned int)" (?seed_random@@YAXI@Z) already defined in PKDTree.obj; second definition ignored
+     1>KDSearch.obj : warning LNK4006: "double __cdecl rand_double(double,double)" (?rand_double@@YANNN@Z) already defined in PKDTree.obj; second definition ignored
+     1>KDSearch.obj : warning LNK4006: "int __cdecl rand_int(int,int)" (?rand_int@@YAHHH@Z) already defined in PKDTree.obj; second definition ignored
+         Patch_KDTree.vcxproj -> Y:\Work\ANN\Patch_KDTree\Debug\Patch_KDTree.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Patch_KDTree.unsuccessfulbuild".
+         Touching "Debug\Patch_KDTree.lastbuildstate".
+     1>Done Building Project "Y:\Work\ANN\Patch_KDTree\Patch_KDTree\Patch_KDTree.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.04
